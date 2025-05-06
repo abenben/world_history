@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>オリエント文明の遺産と現代への影響</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .slide {
+            width: 1280px;
+            min-height: 900px;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #1a2a6c, #2c3e50);
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        .title {
+            background: linear-gradient(to right, #f39c12, #e74c3c);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+        .legacy-card {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        .legacy-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+        .card-header {
+            border-radius: 12px 12px 0 0;
+            padding: 10px 16px;
+            display: flex;
+            align-items: center;
+        }
+        .header-icon {
+            font-size: 24px;
+            margin-right: 10px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .law-header {
+            background: linear-gradient(to right, #3498db, #2980b9);
+        }
+        .religion-header {
+            background: linear-gradient(to right, #9b59b6, #8e44ad);
+        }
+        .science-header {
+            background: linear-gradient(to right, #2ecc71, #27ae60);
+        }
+        .writing-header {
+            background: linear-gradient(to right, #e67e22, #d35400);
+        }
+        .point-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        .point-icon {
+            color: #f39c12;
+            margin-right: 8px;
+            flex-shrink: 0;
+            margin-top: 4px;
+        }
+        .summary-box {
+            background: rgba(243, 156, 18, 0.2);
+            border-left: 4px solid #f39c12;
+            border-radius: 0 8px 8px 0;
+            padding: 12px;
+        }
+        .summary-title {
+            color: #f39c12;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .summary-point {
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+        .summary-icon {
+            color: #f39c12;
+            margin-right: 8px;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide p-8">
+        <h1 class="title text-5xl font-bold text-center mb-6">オリエント文明の遺産と現代への影響</h1>
+
+        <!-- Legacy Cards Grid -->
+        <div class="grid grid-cols-2 gap-6 mb-6" style="height: 600px; margin-bottom: 50px;">
+            <!-- 法律・行政 -->
+            <div class="legacy-card flex flex-col">
+                <div class="card-header law-header">
+                    <div class="header-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold">法律・行政</h2>
+                </div>
+                <div class="p-4 flex-grow overflow-auto">
+                    <div class="point-item">
+                        <i class="fas fa-gavel point-icon"></i>
+                        <div>
+                            <strong>ハンムラビ法典</strong> - 世界最古の法典の一つ
+                            <div class="text-sm opacity-80">「目には目を」の同害報復主義、現代司法の原型</div>
+                        </div>
+                    </div>
+                    <div class="point-item">
+                        <i class="fas fa-landmark point-icon"></i>
+                        <div>
+                            <strong>中央集権的行政制度</strong>
+                            <div class="text-sm opacity-80">アッシリア・ペルシアの属州制度が後のローマ帝国に影響</div>
+                        </div>
+                    </div>
+                    <div class="point-item">
+                        <i class="fas fa-stamp point-icon"></i>
+                        <div>
+                            <strong>文書行政システム</strong>
+                            <div class="text-sm opacity-80">記録管理、印章の使用、契約文書の作成</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 宗教・思想 -->
+            <div class="legacy-card flex flex-col">
+                <div class="card-header religion-header">
+                    <div class="header-icon">
+                        <i class="fas fa-pray"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold">宗教・思想</h2>
+                </div>
+                <div class="p-4 flex-grow overflow-auto">
+                    <div class="point-item">
+                        <i class="fas fa-star-of-david point-icon"></i>
+                        <div>
+                            <strong>ユダヤ教</strong> - 一神教の起源
+                            <div class="text-sm opacity-80">キリスト教・イスラム教の源流、世界観に大きな影響</div>
+                        </div>
+                    </div>
+                    <div class="point-item">
+                        <i class="fas fa-fire point-icon"></i>
+                        <div>
+                            <strong>ゾロアスター教</strong>
+                            <div class="text-sm opacity-80">善悪二元論、終末論、天国・地獄の概念</div>
+                        </div>
+                    </div>
+                    <div class="point-item">
+                        <i class="fas fa-book point-icon"></i>
+                        <div>
+                            <strong>叙事詩と神話</strong>
+                            <div class="text-sm opacity-80">ギルガメシュ叙事詩、大洪水伝説、旧約聖書の物語</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 科学技術 -->
+            <div class="legacy-card flex flex-col">
+                <div class="card-header science-header">
+                    <div class="header-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold">科学技術</h2>
+                </div>
+                <div class="p-4 flex-grow overflow-auto">
+                    <div class="point-item">
+                        <i class="fas fa-calculator point-icon"></i>
+                        <div>
+                            <strong>数学</strong> - 60進法と位取り記数法
+                            <div class="text-sm opacity-80">1時間=60分、円周360度、現代の時間・角度計測の基礎</div>
+                        </div>
+                    </div>
+                    <div class="point-item">
+                        <i class="fas fa-calendar-alt point-icon"></i>
+                        <div>
+                            <strong>暦法</strong>
+                            <div class="text-sm opacity-80">太陽暦・太陰暦、7日間の週、現代カレンダーの原型</div>
+                        </div>
+                    </div>
+                    <div class="point-item">
+                        <i class="fas fa-star point-icon"></i>
+                        <div>
+                            <strong>天文学</strong>
+                            <div class="text-sm opacity-80">惑星運動の観測、星座の命名、占星術の起源</div>
+                        </div>
+                    </div>
+                    <div class="point-item">
+                        <i class="fas fa-archway point-icon"></i>
+                        <div>
+                            <strong>建築技術</strong>
+                            <div class="text-sm opacity-80">アーチ、ドーム、灌漑システム、ピラミッド建設技術</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 文字文化 -->
+            <div class="legacy-card flex flex-col">
+                <div class="card-header writing-header">
+                    <div class="header-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold">文字文化</h2>
+                </div>
+                <div class="p-4 flex-grow overflow-auto">
+                    <div class="point-item">
+                        <i class="fas fa-font point-icon"></i>
+                        <div>
+                            <strong>アルファベットの起源</strong>
+                            <div class="text-sm opacity-80">フェニキア文字→ギリシア文字→ラテン文字（現代アルファベット）</div>
+                        </div>
+                    </div>
+                    <div class="point-item">
+                        <i class="fas fa-book-open point-icon"></i>
+                        <div>
+                            <strong>文学の発展</strong>
+                            <div class="text-sm opacity-80">世界最古の物語文学、詩、教訓文学</div>
+                        </div>
+                    </div>
+                    <div class="point-item">
+                        <i class="fas fa-university point-icon"></i>
+                        <div>
+                            <strong>記録文化</strong>
+                            <div class="text-sm opacity-80">図書館の設立、歴史記録、経済・行政文書</div>
+                        </div>
+                    </div>
+                    <div class="point-item">
+                        <i class="fas fa-scroll point-icon"></i>
+                        <div>
+                            <strong>書写材料の発明</strong>
+                            <div class="text-sm opacity-80">パピルス、粘土板、羊皮紙など</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary Section -->
+        <div class="summary-box">
+            <h3 class="summary-title text-xl">まとめ：オリエント文明はなぜ重要か</h3>
+            <div class="grid grid-cols-2 gap-x-4">
+                <div>
+                    <div class="summary-point">
+                        <i class="fas fa-check-circle summary-icon"></i>
+                        <span>人類最初の文明として多くの「初めて」を生み出した</span>
+                    </div>
+                    <div class="summary-point">
+                        <i class="fas fa-check-circle summary-icon"></i>
+                        <span>東西文化の融合点として多様な文化が交流した</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="summary-point">
+                        <i class="fas fa-check-circle summary-icon"></i>
+                        <span>現代社会の基盤となる制度や技術の源流である</span>
+                    </div>
+                    <div class="summary-point">
+                        <i class="fas fa-check-circle summary-icon"></i>
+                        <span>現代の中東地域の歴史的・文化的背景を理解する鍵</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
