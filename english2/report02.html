@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>英検2級リーディングのポイント</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    .slide {
+      width: 1280px;
+      min-height: 720px;
+      position: relative;
+      background: linear-gradient(to bottom right, #f0f9ff, #e0f2fe);
+      color: #0f172a;
+      overflow: hidden;
+    }
+    .header-bar {
+      background: linear-gradient(90deg, #3b82f6, #0ea5e9);
+    }
+    .info-card {
+      background-color: white;
+      border-left: 5px solid #3b82f6;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+    .info-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+    }
+    .level-badge {
+      background: linear-gradient(90deg, #3b82f6, #60a5fa);
+      color: white;
+      border-radius: 9999px;
+      padding: 0.25rem 1rem;
+      font-weight: bold;
+      display: inline-block;
+    }
+    .problem-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .tip-box {
+      background-color: #dbeafe;
+      border-left: 4px solid #3b82f6;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide p-8">
+    <!-- ヘッダー -->
+    <div class="header-bar w-full py-4 px-8 rounded-lg text-white mb-6">
+      <h1 class="text-4xl font-bold">英検2級 リーディングのポイント</h1>
+    </div>
+
+    <div class="flex">
+      <!-- 左側：基本情報 -->
+      <div class="w-1/3 pr-6">
+        <div class="info-card p-5 mb-6 rounded-lg">
+          <h2 class="text-xl font-bold mb-3 flex items-center">
+            <i class="fas fa-chart-line text-blue-500 mr-3"></i>英検2級のレベル
+          </h2>
+          <ul class="list-disc pl-6 space-y-2">
+            <li><span class="font-semibold">難易度：</span>高校卒業程度</li>
+            <li><span class="font-semibold">CEFR：</span><span class="level-badge">B1〜B2</span></li>
+            <li><span class="font-semibold">必要語彙数：</span>約5,000語</li>
+          </ul>
+        </div>
+
+        <div class="info-card p-5 rounded-lg">
+          <h2 class="text-xl font-bold mb-3 flex items-center">
+            <i class="fas fa-clock text-blue-500 mr-3"></i>リーディングの配点
+          </h2>
+          <div class="pl-4 space-y-2">
+            <div class="flex items-center">
+              <span class="font-semibold w-2/3">CSEスコア：</span>
+              <span class="bg-blue-100 px-3 py-1 rounded font-bold">650点</span>
+            </div>
+            <div class="text-sm mt-2">
+              <span class="font-semibold">※</span> リーディング・ライティング・リスニングで<br>各650点ずつ、合計1950点以上で合格
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 右側：リーディングの問題形式 -->
+      <div class="w-2/3 pl-4">
+        <h2 class="text-xl font-bold mb-4 flex items-center">
+          <i class="fas fa-book text-blue-500 mr-3"></i>リーディングの問題形式
+        </h2>
+
+        <div class="grid grid-cols-1 gap-4">
+          <div class="problem-card p-4 border-l-4 border-blue-500">
+            <div class="flex items-center">
+              <div class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">1</div>
+              <div>
+                <h3 class="font-bold text-blue-800">短文の語彙・文法問題</h3>
+                <p class="text-sm text-gray-600">20問 / 約20分</p>
+              </div>
+              <div class="ml-auto bg-blue-100 px-3 py-1 rounded-full text-sm">
+                選択問題
+              </div>
+            </div>
+            <p class="mt-2 text-sm pl-11">短い文章の空所に入る適切な語句や表現を選ぶ問題</p>
+          </div>
+
+          <div class="problem-card p-4 border-l-4 border-green-500">
+            <div class="flex items-center">
+              <div class="bg-green-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">2</div>
+              <div>
+                <h3 class="font-bold text-green-800">長文の空所補充問題</h3>
+                <p class="text-sm text-gray-600">6問 / 約18分</p>
+              </div>
+              <div class="ml-auto bg-green-100 px-3 py-1 rounded-full text-sm">
+                説明文
+              </div>
+            </div>
+            <p class="mt-2 text-sm pl-11">270語程度の説明文の空所に適切な語句を補充する問題</p>
+          </div>
+
+          <div class="problem-card p-4 border-l-4 border-purple-500">
+            <div class="flex items-center">
+              <div class="bg-purple-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">3</div>
+              <div>
+                <h3 class="font-bold text-purple-800">長文の内容一致選択問題</h3>
+                <p class="text-sm text-gray-600">8問 / 約22分</p>
+              </div>
+              <div class="ml-auto bg-purple-100 px-3 py-1 rounded-full text-sm">
+                Eメール・説明文
+              </div>
+            </div>
+            <p class="mt-2 text-sm pl-11">240〜350語程度の文章を読み、内容に関する質問に答える問題</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 解答のポイント -->
+    <div class="mt-6">
+      <h2 class="text-xl font-bold mb-3 flex items-center">
+        <i class="fas fa-lightbulb text-yellow-500 mr-3"></i>解答のポイント
+      </h2>
+
+      <div class="grid grid-cols-3 gap-4">
+        <div class="tip-box p-3 rounded">
+          <h3 class="font-bold mb-1 flex items-center">
+            <i class="fas fa-search-plus text-blue-500 mr-2"></i>文章の構造を理解する
+          </h3>
+          <p class="text-sm">序論→本論→結論の流れを意識し、各パラグラフの主題文を素早く見つけよう</p>
+        </div>
+
+        <div class="tip-box p-3 rounded">
+          <h3 class="font-bold mb-1 flex items-center">
+            <i class="fas fa-link text-blue-500 mr-2"></i>つなぎ言葉に注目
+          </h3>
+          <p class="text-sm">however、therefore などの接続語から論理展開を予測しよう</p>
+        </div>
+
+        <div class="tip-box p-3 rounded">
+          <h3 class="font-bold mb-1 flex items-center">
+            <i class="fas fa-tachometer-alt text-blue-500 mr-2"></i>効率的な読み方
+          </h3>
+          <p class="text-sm">スキミング（概要把握）とスキャニング（情報検索）を使い分けよう</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 下部の注釈 -->
+    <div class="absolute bottom-4 right-8 text-sm text-gray-500">
+      <div class="flex items-center">
+        <i class="fas fa-info-circle mr-2"></i>
+        <span>全34問 / 目標時間：約60分</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>英検2級対策</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    .slide {
+      width: 1280px;
+      min-height: 720px;
+      position: relative;
+      background: linear-gradient(135deg, #3b82f6 0%, #0ea5e9 100%);
+      color: white;
+      overflow: hidden;
+    }
+    .circle {
+      position: absolute;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    .title {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="slide flex flex-col items-center justify-center p-10">
+    <!-- デコレーション要素 -->
+    <div class="circle" style="width: 300px; height: 300px; top: -100px; left: -100px;"></div>
+    <div class="circle" style="width: 400px; height: 400px; bottom: -150px; right: -150px;"></div>
+    <div class="circle" style="width: 200px; height: 200px; top: 100px; right: 100px;"></div>
+
+    <!-- メインコンテンツ -->
+    <div class="z-10 text-center">
+      <div class="mb-4">
+        <i class="fas fa-book-open text-6xl mb-6 transform -rotate-12 text-yellow-300"></i>
+        <i class="fas fa-pencil-alt text-5xl ml-5 transform rotate-12 text-green-300"></i>
+      </div>
+
+      <h1 class="title text-6xl font-black mb-8 tracking-tight leading-tight">
+        英検2級対策<br>
+        <span class="text-yellow-300">リーディング・ライティング</span><br>
+        のポイント
+      </h1>
+
+      <div class="mt-10 bg-white text-blue-900 rounded-full py-3 px-8 inline-block font-bold text-2xl shadow-lg">
+        高校2年生向け
+      </div>
+
+      <div class="mt-16 flex justify-center space-x-12">
+        <div class="flex flex-col items-center">
+          <i class="fas fa-book text-5xl mb-2"></i>
+          <span class="text-xl">Reading</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class="fas fa-pen-fancy text-5xl mb-2"></i>
+          <span class="text-xl">Writing</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class="fas fa-lightbulb text-5xl mb-2"></i>
+          <span class="text-xl">Tips</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 下部の情報 -->
+    <div class="absolute bottom-6 right-10 text-sm opacity-80">
+      <div class="flex items-center">
+        <i class="fas fa-graduation-cap mr-2"></i>
+        <span>英検®︎は公益財団法人 日本英語検定協会の登録商標です</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

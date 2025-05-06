@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ライティング（筆記）のポイント</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    .slide {
+      width: 1280px;
+      min-height: 720px;
+      position: relative;
+      background: linear-gradient(to bottom, #ecfdf5, #d1fae5);
+      color: #065f46;
+      overflow: hidden;
+    }
+    .header-bar {
+      background: linear-gradient(90deg, #059669, #10b981);
+    }
+    .card {
+      background-color: white;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+      border-radius: 8px;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+    }
+    .section-divider {
+      height: 4px;
+      background: linear-gradient(90deg, #059669, transparent);
+      margin: 15px 0;
+      border-radius: 2px;
+    }
+    .score-badge {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+    }
+    .tip-box {
+      border-left: 4px solid;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide p-6">
+    <!-- ヘッダー -->
+    <div class="header-bar w-full py-3 px-8 rounded-lg text-white mb-4">
+      <h1 class="text-3xl font-bold">ライティング（筆記）のポイント</h1>
+    </div>
+
+    <!-- ライティングセクションの構成 -->
+    <div class="mb-4">
+      <h2 class="text-xl font-bold flex items-center mb-3">
+        <i class="fas fa-pen-fancy text-green-600 mr-3"></i>ライティングセクションの構成
+      </h2>
+
+      <div class="grid grid-cols-2 gap-6">
+        <!-- 英文要約問題 -->
+        <div class="card p-4 border-t-4 border-blue-500">
+          <div class="flex items-center mb-3">
+            <div class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">4</div>
+            <div>
+              <h3 class="font-bold text-blue-700">英文要約問題</h3>
+              <p class="text-sm text-gray-600">Summary Writing</p>
+            </div>
+          </div>
+
+          <div class="pl-11 space-y-2 text-sm">
+            <div class="flex items-start">
+              <i class="fas fa-file-alt text-blue-500 mr-2 mt-1"></i>
+              <span><span class="font-semibold">形式：</span>150語程度の英文を45～55語で要約</span>
+            </div>
+            <div class="flex items-start">
+              <i class="fas fa-paragraph text-blue-500 mr-2 mt-1"></i>
+              <span><span class="font-semibold">英文：</span>3パラグラフ構成の説明文や物語文</span>
+            </div>
+            <div class="flex items-start">
+              <i class="fas fa-clock text-blue-500 mr-2 mt-1"></i>
+              <span><span class="font-semibold">解答時間：</span>約15分</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 英作文問題 -->
+        <div class="card p-4 border-t-4 border-purple-500">
+          <div class="flex items-center mb-3">
+            <div class="bg-purple-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-3">5</div>
+            <div>
+              <h3 class="font-bold text-purple-700">英作文問題</h3>
+              <p class="text-sm text-gray-600">Essay Writing</p>
+            </div>
+          </div>
+
+          <div class="pl-11 space-y-2 text-sm">
+            <div class="flex items-start">
+              <i class="fas fa-pencil-alt text-purple-500 mr-2 mt-1"></i>
+              <span><span class="font-semibold">形式：</span>トピックについて自分の意見とその理由を2つ書く</span>
+            </div>
+            <div class="flex items-start">
+              <i class="fas fa-ruler text-purple-500 mr-2 mt-1"></i>
+              <span><span class="font-semibold">語数：</span>80～100語</span>
+            </div>
+            <div class="flex items-start">
+              <i class="fas fa-clock text-purple-500 mr-2 mt-1"></i>
+              <span><span class="font-semibold">解答時間：</span>約20分</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 評価の観点 -->
+    <div class="mb-4">
+      <h2 class="text-xl font-bold flex items-center mb-3">
+        <i class="fas fa-star text-green-600 mr-3"></i>評価の観点（各0～4点、合計16点満点）
+      </h2>
+
+      <div class="card p-4">
+        <div class="grid grid-cols-4 gap-4">
+          <!-- 内容 -->
+          <div class="bg-red-50 p-3 rounded-lg">
+            <div class="flex items-center mb-2">
+              <div class="score-badge bg-red-500 mr-2">4</div>
+              <h3 class="font-bold text-red-700">内容</h3>
+            </div>
+            <p class="text-sm">課題で求められている内容が含まれているか</p>
+            <div class="mt-2 text-xs text-red-600 font-semibold">
+              <div class="flex items-center">
+                <i class="fas fa-exclamation-triangle mr-1"></i>
+                <span>トピックから外れると0点になる可能性あり</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 構成 -->
+          <div class="bg-blue-50 p-3 rounded-lg">
+            <div class="flex items-center mb-2">
+              <div class="score-badge bg-blue-500 mr-2">4</div>
+              <h3 class="font-bold text-blue-700">構成</h3>
+            </div>
+            <p class="text-sm">英文の流れが論理的であるか</p>
+            <div class="mt-2 text-xs text-blue-600">
+              <ul class="list-disc pl-4">
+                <li>パラグラフ構成</li>
+                <li>つなぎ言葉の適切さ</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 語彙 -->
+          <div class="bg-yellow-50 p-3 rounded-lg">
+            <div class="flex items-center mb-2">
+              <div class="score-badge bg-yellow-500 mr-2">4</div>
+              <h3 class="font-bold text-yellow-700">語彙</h3>
+            </div>
+            <p class="text-sm">適切な語彙を使えているか</p>
+            <div class="mt-2 text-xs text-yellow-600">
+              <ul class="list-disc pl-4">
+                <li>語彙の多様性</li>
+                <li>同じ表現の繰り返しを避ける</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 文法 -->
+          <div class="bg-purple-50 p-3 rounded-lg">
+            <div class="flex items-center mb-2">
+              <div class="score-badge bg-purple-500 mr-2">4</div>
+              <h3 class="font-bold text-purple-700">文法</h3>
+            </div>
+            <p class="text-sm">文法的に正確で多様な文構造を使えているか</p>
+            <div class="mt-2 text-xs text-purple-600">
+              <ul class="list-disc pl-4">
+                <li>複文・重文の使用</li>
+                <li>時制の一貫性</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 解答のコツ -->
+    <div>
+      <h2 class="text-xl font-bold flex items-center mb-3">
+        <i class="fas fa-lightbulb text-green-600 mr-3"></i>解答のコツ
+      </h2>
+
+      <div class="grid grid-cols-2 gap-6">
+        <!-- 英文要約のコツ -->
+        <div class="card p-4">
+          <h3 class="font-bold text-blue-700 mb-2 flex items-center">
+            <i class="fas fa-file-alt text-blue-500 mr-2"></i>英文要約のコツ
+          </h3>
+
+          <div class="space-y-2">
+            <div class="tip-box border-blue-400 pl-3 bg-blue-50 p-2 rounded">
+              <p class="text-sm"><span class="font-semibold">各パラグラフの主題を抽出</span>：最初の文や最後の文に注目</p>
+            </div>
+            <div class="tip-box border-blue-400 pl-3 bg-blue-50 p-2 rounded">
+              <p class="text-sm"><span class="font-semibold">つなぎ言葉を適切に使用</span>：However, Therefore, As a result など</p>
+            </div>
+            <div class="tip-box border-blue-400 pl-3 bg-blue-50 p-2 rounded">
+              <p class="text-sm"><span class="font-semibold">具体例は省略</span>：要点だけを簡潔にまとめる</p>
+            </div>
+            <div class="tip-box border-blue-400 pl-3 bg-blue-50 p-2 rounded">
+              <p class="text-sm"><span class="font-semibold">言い換え表現を活用</span>：原文をそのままコピーしない</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 英作文のコツ -->
+        <div class="card p-4">
+          <h3 class="font-bold text-purple-700 mb-2 flex items-center">
+            <i class="fas fa-pencil-alt text-purple-500 mr-2"></i>英作文のコツ
+          </h3>
+
+          <div class="bg-gray-50 p-3 rounded-lg mb-3">
+            <h4 class="font-semibold text-gray-700 mb-2">型に沿って書く</h4>
+            <div class="grid grid-cols-4 gap-2 text-center text-sm">
+              <div class="bg-red-100 p-2 rounded">
+                <div class="font-bold text-red-700">主張</div>
+                <div class="text-xs">意見を述べる</div>
+              </div>
+              <div class="bg-blue-100 p-2 rounded">
+                <div class="font-bold text-blue-700">理由1</div>
+                <div class="text-xs">1つ目の理由</div>
+              </div>
+              <div class="bg-green-100 p-2 rounded">
+                <div class="font-bold text-green-700">理由2</div>
+                <div class="text-xs">2つ目の理由</div>
+              </div>
+              <div class="bg-yellow-100 p-2 rounded">
+                <div class="font-bold text-yellow-700">再主張</div>
+                <div class="text-xs">まとめ</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="space-y-2">
+            <div class="tip-box border-purple-400 pl-3 bg-purple-50 p-2 rounded">
+              <p class="text-sm"><span class="font-semibold">問題文のPOINTSを活用</span>：理由を考える参考にする</p>
+            </div>
+            <div class="tip-box border-purple-400 pl-3 bg-purple-50 p-2 rounded">
+              <p class="text-sm"><span class="font-semibold">定型表現を使う</span>：I think that..., One reason is..., For these reasons...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 下部の注釈 -->
+    <div class="absolute bottom-4 right-8 text-sm text-gray-600">
+      <div class="flex items-center">
+        <i class="fas fa-info-circle mr-2"></i>
+        <span>合格には16点満点中9点以上を目標に</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
